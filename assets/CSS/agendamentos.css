@@ -1,0 +1,80 @@
+body {
+    background-color: var(--bg-body)
+}
+
+.container h1{
+    color: var(--textColor-default);
+    font-family: var(--font-titles);
+}
+
+.container p{
+    color: var(--textTitle-cards);
+    font-family: var(--font-titles);
+}
+
+
+.container{
+    padding: 90px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cx-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.cx-cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cards p{
+    color: var(--textTitle-cards);
+    font-family: var(--font-cards);
+}
+
+.container-cards .card{
+    background-color: var(--bg-card);
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+
+    border-radius: 8px;
+}
+
+.container button {
+    background-color: #7E42FF;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    color: var(--textTitle-cards);
+    font-family: var(--font-cards);
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 1px 1px 8px 0px #7306ec;
+}
+
+.container button:hover{
+    background-color: #6c3fce;
+}
+
+.container-cards .card:hover{
+    box-shadow: 1px 1px 1px 1px #7E42FF;
+}
