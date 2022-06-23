@@ -1,11 +1,12 @@
 :root{
 
     /* Colors */
-    --bg-body: #1F1F1F;
+    --bg-body: #161616;
     --textColor-default: white;
     --textTitle-cards: #F8F8F8;
+
     /* background card */
-    --bg-card: #252525;
+    --bg-card: #1d1d1d;
 
     /* Fonts */
     --font-titles: 'Inter', sans-serif;
