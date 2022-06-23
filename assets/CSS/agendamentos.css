@@ -15,6 +15,7 @@ body {
 
 .container{
     padding: 90px 20px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -57,23 +58,6 @@ body {
     gap: 1rem;
 
     border-radius: 8px;
-}
-
-.container button {
-    background-color: #7E42FF;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    color: aliceblue;
-    color: var(--textTitle-cards);
-    font-family: var(--font-cards);
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 1px 1px 8px 0px #7306ec;
-}
-
-.container button:hover{
-    background-color: #6c3fce;
 }
 
 .container-cards .card:hover{
