@@ -41,4 +41,8 @@
     --height-btn: 50px;
     --border-radius: 5px;
     --btn-hover: #7247cf;
+
+    /* Custom scroll */
+    --bg-scroll-nav: rgb(43, 43, 43);
+    --scroll-thumb: rgb(63, 63, 63);
 }
