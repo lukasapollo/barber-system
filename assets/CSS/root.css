@@ -9,13 +9,17 @@
     --bg-card: #1d1d1d;
     
     /* background inputs */
-    --bg-inputs: #202020;
+    --bg-inputs: #2F2F2F;
+    --color-inputs: #eaeaea;
 
-    --bg-list: #252525;
+    --bg-list: #303030;
 
     /* height inputs */
     --height-ipt: 45px;
     --f-size-ipts: 1rem;
+
+    /* list */
+    --list-hover: #1f2427;
 
     /* Fonts */
     --font-titles: 'Inter', sans-serif;
