@@ -65,3 +65,15 @@ body {
 .container-cards .card:hover{
     box-shadow: 1px 1px 1px 1px #7E42FF;
 }
+
+@media (max-width: 500px) {
+    .container{
+        padding: 44px 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
