@@ -77,3 +77,14 @@ body {
         justify-content: flex-start;
     }
 }
+
+
+/* Button submit */
+
+.btn-submit{
+    background-color: var(--bg-btnsubmit);
+    height: var(--height-btn);
+    font-family: var(--font-cards);
+    color: var(--textColor-default);
+    border-radius: var(--border-radius)
+}

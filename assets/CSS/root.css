@@ -17,6 +17,8 @@
     /* height inputs */
     --height-ipt: 45px;
     --f-size-ipts: 1rem;
+    /* Tamanho dos inputs */
+    --height-inputs: 50px;
 
     /* list */
     --list-hover: #1f2427;
@@ -32,4 +34,10 @@
     
     --color-i-one: rgb(0, 218, 87);
     --color-i-two: rgb(0, 218, 87);
+
+    /* Background-color button submit */
+
+    --bg-btnsubmit: #7E42FF;
+    --height-btn: 50px;
+    --border-radius: 5px;
 }
