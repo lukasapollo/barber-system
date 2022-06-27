@@ -17,5 +17,7 @@
     width: 100%;
     padding: 0 20px;
     color: var(--textTitle-cards); 
+    height: 50px;
+    font-family: var(--font-titles);
 }
 

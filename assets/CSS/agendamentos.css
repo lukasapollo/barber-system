@@ -77,7 +77,7 @@ body::-webkit-scrollbar-thumb{
     box-shadow: 1px 1px 1px 1px #7E42FF;
 }
 
-.card-selected {
+.container-cards .card.card-selected {
     box-shadow: 1px 1px 1px 1px #7E42FF;
 }
 

@@ -8,6 +8,7 @@
     flex-direction: column;
     gap: 0.6rem;
     position: relative;
+    font-family: var(--font-titles);
 }
 
 .cx-select{
@@ -35,6 +36,7 @@
     padding-left: 20px;
     color: var(--color-inputs);
     border: none;
+    font-family: var(--font-titles);
 }
 
 .cx-select .ctn-ipt-2{
@@ -86,6 +88,7 @@
     padding: 10px 5px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 0.8rem;
 }
 
 .component-select nav ul li span{
