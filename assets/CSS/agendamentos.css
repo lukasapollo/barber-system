@@ -88,3 +88,7 @@ body {
     color: var(--textColor-default);
     border-radius: var(--border-radius)
 }
+
+.btn-submit:hover{
+    background-color: var(--btn-hover);
+}
