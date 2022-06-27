@@ -1,0 +1,107 @@
+
+/* Component Select */
+
+.component-select{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    position: relative;
+}
+
+.cx-select{
+    width: 100%;
+    display: flex;
+    background-color: var(--bg-inputs);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.cx-select.ctn-ipt input{
+    width: 100%;
+}
+
+.cx-select .ctn-ipt{
+    width: 95%;
+}
+
+.cx-select .ctn-ipt input{
+    width: 92%;
+    background-color: var(--bg-inputs);
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    color: #9f9f9f;
+    border: none;
+}
+
+.cx-select .ctn-ipt-2{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cx-select i{
+    color: var(--color-i-one);
+}
+
+.component-select nav{
+    background-color: var(--bg-inputs);
+    color: var(--font-options);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 1s ease !important;
+    width: 100%;
+    position: absolute;
+    top: 3.5rem;
+    box-shadow: var(--box-shadow);
+    z-index: 10;
+}
+.component-select nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    overflow: auto;
+    height: 185px;
+}
+
+.component-select nav ul::-webkit-scrollbar{
+    width: 7px;
+}
+.component-select nav ul::-webkit-scrollbar-track{
+    background-color: var(--bg-scroll-nav);
+}
+.component-select nav ul::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb);
+    border-radius: 10px;
+}
+
+.component-select nav ul li{
+    display: flex;
+    gap: 0.5rem;
+    background-color: var(--bg-list);
+    padding: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.component-select nav ul li span{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.component-select nav ul li:hover{
+    background-color: var(--list-hover);
+}
+
+.component-select nav ul li i{
+    color: var(--color-i-two);
+}
+
+.disabled-select{
+    display: none;
+}

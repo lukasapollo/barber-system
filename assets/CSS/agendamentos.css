@@ -1,6 +1,5 @@
 body {
     background-color: var(--bg-body);
-    overflow-y: hidden;
 }
 
 .container h1{
@@ -8,11 +7,10 @@ body {
     font-family: var(--font-titles);
 }
 
-.container p{
+.container .cx-title p{
     color: var(--textTitle-cards);
     font-family: var(--font-titles);
 }
-
 
 .container{
     padding: 90px 20px;
@@ -22,6 +20,10 @@ body {
     gap: 4rem;
     align-items: center;
     justify-content: center;
+}
+
+.container.agends{ 
+    gap: 2rem;
 }
 
 .cx-title{
@@ -57,7 +59,6 @@ body {
     align-items: center;
     padding: 20px;
     gap: 1rem;
-
     border-radius: 8px;
 }
 

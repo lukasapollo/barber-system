@@ -7,3 +7,5 @@
 html nav ul li { list-style: none; }
 
 html body a { text-decoration: none ;}
+
+.body-agends{ overflow-y: hidden; }
