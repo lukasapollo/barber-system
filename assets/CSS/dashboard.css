@@ -1,0 +1,132 @@
+.body-dashbord{ 
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.container-content{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(358.39deg, #050505 11.61%, rgba(5, 5, 5, 0) 98.55%);;
+}
+
+.header-dashbord {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 200px;
+    background-image: url('../IMG/bg-header-dashbord.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.container-menu i{
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.content-header{
+    color: #fff;
+    font-family: var(--font-titles);
+}
+
+.nav-dashbord{
+    position: relative;
+    
+}
+
+.nav-dashbord ul li a{
+    color: #fff;
+    font-family: var(--font-titles);
+}
+.nav-dashbord ul li a:hover{
+   text-decoration: underline;
+}
+
+.nav-dashbord ul{
+    background-color: #141414;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 100vh;
+    gap: 1rem;
+    top: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-close{
+    position: relative;
+    top: -167px;
+    width: 40px;
+    height:40px;
+    background-color: #7e42ff30;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-close i{
+    color: #7E42FF;
+    font-size: 2rem;
+}
+
+.ctn-icons-nav{
+    background-color: #1a1a1a;
+    width: 80%;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   
+}
+
+.ctn-icons-nav li{
+    background-color: #7e42ff30;
+    width: 40px;
+    height: 40px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn-icons-nav li:hover{
+    border:1px solid #7E42FF;
+}
+
+.ctn-icons-nav li i{
+    color: #7E42FF;
+    font-size: 1rem;
+}
+
+.close-nav{
+    right: -67px !important; 
+}
+
+/* Header */
+
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-header p{
+    color: rgb(159, 159, 159);
+}
