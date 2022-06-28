@@ -41,7 +41,12 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 3rem;
+    gap: 1.5rem;
+}
+
+.cx-title i{
+    color: chartreuse;
+    font-size: 3rem;
 }
 
 .container-cards{
@@ -114,7 +119,7 @@ body::-webkit-scrollbar-thumb{
 /* Pagina 03 */
 
 .cx-title .p-check{
-    color: #7E42FF !important;
+    color: #ebebeb !important;
 }
 
 .card-final{
