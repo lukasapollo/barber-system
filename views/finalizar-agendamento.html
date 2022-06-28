@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#191919">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+    <meta name="msapplication-navbutton-color" content="#191919">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Joti+One&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../assets/CSS/all.css">
+    <title>Agendamentos - Cadastrar agendamento</title>
+</head>
+<body>
+    <div class="container agends">
+        <div class="cx-title">
+            <h1>
+                SHOW
+            </h1>
+            <p class="p-check">Agendamento feito com sucesso!</p>
+        </div>
+
+        <div class="card-final">
+            <div class="container-type">
+                <div><img src="../assets/IMG/icon-1.svg" alt=""></div>
+                <p>Corte de cabelo</p>
+            </div>
+            <div class="container-descriptions">
+                <p>Horario marcado: <span class="span-card" id="horario">9:00</span></p>
+                <p>Codigo do atendimento: <span class="span-card" id="code">#618516654</span></p>
+                <p>Tipo de serviço: <span class="span-card" id="typeService">Corte de Cabelo</span></p>
+            </div>
+        </div>
+
+
+        <!-- Cadastramento de cupons -->
+
+        <div class="container-cupons">
+            <div class="text-cupons">
+                <p>Receba cupons especiais</p>
+                <p class="p-2">Cadastre seu whatsapp e receba cupons de descontos</p>
+            </div>
+            <div class="register-container">
+                <input type="text" placeholder="Seu whatsapp" id="ipt-cupons">
+                <button id="EnviarCupons" class="btn-cupons">Receber cupons</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/JS/select.js"></script>
+    
+</body>
+</html>

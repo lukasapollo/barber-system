@@ -110,3 +110,103 @@ body::-webkit-scrollbar-thumb{
 .btn-submit:hover{
     background-color: var(--btn-hover);
 }
+
+/* Pagina 03 */
+
+.cx-title .p-check{
+    color: #7E42FF !important;
+}
+
+.card-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #252525;
+    padding: 39px 47px;
+    border-radius: 5px;
+    gap: 2rem;
+    box-shadow: 0px 0px 0px 4px #25252521;
+}
+
+.card-final .container-type{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-final .container-type p{
+    font-family: var( --font-cards);
+    color: var(--textTitle-cards);
+}
+
+.container-descriptions{
+    font-family: var(--font-titles);
+    font-size: 0.8rem;
+    color: #9C9C9C;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-descriptions span.span-card{
+    color: #704ac1  ;
+}
+
+
+.container-cupons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.text-cupons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.text-cupons p{
+    font-family: var( --font-cards);
+    color: var( --textTitle-cards);  
+    text-align: center;   
+}
+
+.text-cupons p.p-2{
+    font-family: var(--font-titles);
+    color: #d1d1d1;
+    font-size: 0.7rem;
+    width: 188px;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container input{
+    background-color: #252525;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: var(--font-titles)
+}
+
+.register-container button{
+    width: 150px;
+    height: 50px;
+    background-color: #7E42FF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: var(--font-titles);
+    position: relative;
+    top: -10px;
+    left: 69px;
+}
