@@ -200,7 +200,11 @@ body::-webkit-scrollbar-thumb{
     border: none;
     border-radius: 5px;
     padding-left: 10px;
-    font-family: var(--font-titles)
+    font-family: var(--font-titles);
+    color: #8b57fc;
+    border: 1px solid #7E42FF;
+    box-shadow: 0px 0px 0px 3px #7e42ff29;
+    outline: none;
 }
 
 .register-container button{
@@ -214,4 +218,5 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     top: -10px;
     left: 69px;
+    font-weight: 700;
 }
