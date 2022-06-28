@@ -120,6 +120,7 @@ body::-webkit-scrollbar-thumb{
 
 .cx-title .p-check{
     color: #ebebeb !important;
+    font-weight: 600 !important;
 }
 
 .card-final{
