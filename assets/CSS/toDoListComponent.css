@@ -7,13 +7,6 @@
     font-size: 0.8rem;
 }
 
-.previw-agendamentos{
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
 
 .container-toDoList-1{
     width: 100%;
@@ -21,6 +14,30 @@
     background-color: #1A1D21;
     border-radius: 4px;
     
+}
+
+.previw-agendamentos{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+    animation: slidePreviw;
+    animation-duration: 2s;
+}
+
+@keyframes slidePreviw{
+    from {
+        opacity: 0;
+        left: -50px;
+
+    }
+
+    to {
+        opacity: 1;
+        left: 0px;
+    }
 }
 
 /* Part 1 */
