@@ -197,3 +197,17 @@
     color: #EBEBEB;
     font-size: 0.8rem;
 }
+
+.ctn-viewAll {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: #9cccef;
+    font-family: var(--font-titles);
+}
+
+.ctn-viewAll span{
+    font-size: 12px;
+    text-decoration: underline;
+}
