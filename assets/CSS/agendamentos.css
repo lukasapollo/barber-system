@@ -208,6 +208,12 @@ body::-webkit-scrollbar-thumb{
     outline: none;
 }
 
+.register-container input::-webkit-outer-spin-button,
+.register-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .register-container button{
     width: 150px;
     height: 50px;
@@ -220,4 +226,8 @@ body::-webkit-scrollbar-thumb{
     top: -10px;
     left: 69px;
     font-weight: 700;
+}
+
+.register-container button:hover{
+    background-color: #ff9900;
 }

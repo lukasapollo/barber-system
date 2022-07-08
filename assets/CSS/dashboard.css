@@ -1,13 +1,14 @@
 .body-dashbord{ 
-    background-color: black;
+    background-color: #0B0F14;
     overflow-x: hidden;
 }
 
 .container-content{
     width: 100%;
     height: 100%;
-    background: linear-gradient(358.39deg, #050505 11.61%, rgba(5, 5, 5, 0) 98.55%);;
+    background: linear-gradient(358.39deg, #0b0f14 11.61%, rgba(5, 5, 5, 0) 98.55%);
 }
+
 
 .header-dashbord {
     background-color: antiquewhite;
@@ -26,7 +27,7 @@
 }
 
 .container-menu i{
-    color: #fff;
+    color: #a7adb5;
     font-size: 2.5em;
 }
 
@@ -49,8 +50,8 @@
 }
 
 .nav-dashbord ul{
-    background-color: #141414;
-    position: absolute;
+    background-color: #0e1319;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +83,7 @@
 }
 
 .ctn-icons-nav{
-    background-color: #1a1a1a;
+    background-color: #121820;
     width: 80%;
     height: 200px;
     border-radius: 5px;
@@ -95,7 +96,7 @@
 }
 
 .ctn-icons-nav li{
-    background-color: #7e42ff30;
+    background-color: #7e42ff17;
     width: 40px;
     height: 40px;
     border-radius: 28px;
