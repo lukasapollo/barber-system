@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 4px;
-    cursor: pointer;
     animation: animateCard;
     animation-duration: 2s;
     position: relative;
