@@ -3,15 +3,25 @@
     height: 30px;
 }
 
+.content-1-cp1.cp2.toDo i{
+    font-size: 0.8rem;
+}
+
+.content-1-cp1.cp2.toDo { 
+    width: 30px;
+    height: 30px;
+}
+
 .content-1-cp1.toDo i{
     font-size: 0.8rem;
 }
 
 
+
 .container-toDoList-1{
     width: 100%;
     max-width: 400px;
-    background-color: #1A1D21;
+    background-color: #11171f;
     border-radius: 4px;
     
 }
@@ -63,7 +73,7 @@
 .container-card-td{
     margin: 20px 20px 15px 20px;
     padding: 20px 20px;
-    background-color: #212529;
+    background-color: #1c2129;
     border-radius: 4px;
     box-shadow: 1px 1px 20px 3px #1a1a1a73;
 }
