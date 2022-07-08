@@ -23,12 +23,13 @@
     display: flex;
     justify-content: flex-end;
     padding: 1em;
-    cursor: pointer;
+    
 }
 
 .container-menu i{
     color: #a7adb5;
     font-size: 2.5em;
+    cursor: pointer;
 }
 
 .content-header{
