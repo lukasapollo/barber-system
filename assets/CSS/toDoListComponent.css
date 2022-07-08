@@ -205,9 +205,14 @@
     justify-content: center;
     color: #9cccef;
     font-family: var(--font-titles);
+    cursor: pointer;
 }
 
 .ctn-viewAll span{
     font-size: 12px;
     text-decoration: underline;
+}
+
+.ctn-viewAll:hover{
+    color: #e2e2e2;
 }
