@@ -200,13 +200,20 @@
 }
 
 .details-cp1 p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #878A99;
 }
 
 .details-cp1 p span{
     color: #EBEBEB;
     font-size: 0.8rem;
+}
+
+#ctn-number {
+    padding: 3px 10px;
+    background-color: #ffd50034;
+    border-radius: 5px;
+    color: #FFD600;
 }
 
 .ctn-viewAll {
