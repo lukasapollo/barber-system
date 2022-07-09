@@ -209,6 +209,19 @@
     font-size: 0.8rem;
 }
 
+.details-cp1 a{
+    padding: 10px;
+    background-color: #2a323e;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 14px;
+    color: #87a9c9;
+}
+
+.details-cp1 a:hover{
+    background-color: #11171f;
+}
+
 #ctn-number {
     padding: 3px 10px;
     background-color: #ffd50034;
